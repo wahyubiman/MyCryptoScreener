@@ -10,6 +10,7 @@
   "dependencies": {
     "ccxt": "^1.62.29",
     "core-js": "^3.6.5",
+    "eslint": "6.7.2",
     "register-service-worker": "^1.7.1",
     "technicalindicators": "^3.1.0",
     "vue": "^2.6.11",
@@ -22,7 +23,6 @@
     "@vue/cli-plugin-pwa": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "sass": "~1.32.0",
     "sass-loader": "^10.0.0",
