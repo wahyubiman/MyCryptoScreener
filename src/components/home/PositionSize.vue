@@ -147,19 +147,23 @@ export default {
   }),
   computed: {
     stopLossPercent() {
-      return (
-        ((this.entryPrice - this.stopLossPrice) / this.entryPrice) *
-        (this.leverage * 100)
-      ).toFixed(2);
+      return Math.abs(
+        (
+          ((this.entryPrice - this.stopLossPrice) / this.entryPrice) *
+          (this.leverage * 100)
+        ).toFixed(2)
+      );
     },
     riskPerTrade() {
-      return (this.maxLoss / (this.stopLossPercent / 100)).toFixed(2);
+      return Math.abs((this.maxLoss / (this.stopLossPercent / 100)).toFixed(2));
     },
     estimateCoin() {
-      return ((this.riskPerTrade * this.leverage) / this.entryPrice).toFixed(4);
+      return Math.abs(
+        ((this.riskPerTrade * this.leverage) / this.entryPrice).toFixed(4)
+      );
     },
     estimateContract() {
-      return (this.estimateCoin * this.entryPrice).toFixed(0);
+      return Math.abs((this.estimateCoin * this.entryPrice).toFixed(0));
     },
     riskRewardRatio() {
       return Math.abs(
