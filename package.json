@@ -10,6 +10,7 @@
   "dependencies": {
     "ccxt": "^1.62.29",
     "core-js": "^3.6.5",
+    "register-service-worker": "^1.7.1",
     "technicalindicators": "^3.1.0",
     "vue": "^2.6.11",
     "vuetify": "^2.4.0"
@@ -18,6 +19,7 @@
     "@mdi/font": "^6.5.95",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
