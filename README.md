@@ -1,7 +1,10 @@
 # My Crypto Screener
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/26c4bbff-fa4c-4d8f-a7ae-916826ac4fda/deploy-status)](https://app.netlify.com/sites/mycryptoscreener/deploys)
+
 Just my simple crypto screener build using [VueJs](https://vuejs.org/), to help me find opportunity to enter trade
 
+[Demo Site](https://mycryptoscreener.netlify.app/)
 ---
 
 ## Features
