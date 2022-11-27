@@ -176,9 +176,7 @@
             <td
               :class="{
                 'green--text': result.rsi < 40 && result.price > result.ema,
-                'red--text': result.rsi > 60 && result.price < result.ema,
-                'orange--text': result.rsi > 40 && result.rsi < 60 || result.rsi < 40 && result.price < result.ema || result.rsi > 60 && result.price > result.ema,
-              }"
+                'red--text': result.rsi > 60 && result.price < result.ema}"
             >
               {{ result.rsi }}
             </td>
